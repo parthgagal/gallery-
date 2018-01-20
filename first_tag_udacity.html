@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gilool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    body {
+        background-color:#f4f5f7;
+    }
+    h4 {
+      color:#6d7991;
+      text-align:center;
+      font-family: 'Open Sans', sans-serif;
+      font-size:30px;
+      margin-right:140px;
+    }
+    .first {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px; 
+    }
+    .input1{
+      text-align:left;
+      padding:8px;
+      width:14%;
+      margin:1px 10px 3px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+    }
+    .input2 {
+      text-align:left;
+      padding:8px;
+      width:14%;
+      margin:1px 10px 3px 10px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input1:hover {
+      border-color:rgb(80, 171, 241);
+      
+    }
+    .input2:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+
+    .input2:active {
+      border:1px solid red;
+    }
+    .input1:active {
+      border:1px solid red;
+    }
+
+    .userName {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:398px;
+      margin:10px; 
+      font-size:18px;
+    }
+    .input3 {
+      text-align:left;
+      padding:8px;
+      width:30%;
+      margin:1px 10px 3px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input4 {
+      text-align:left;
+      padding:8px;
+      width:30%;
+      margin:1px 10px 3px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input3:active {
+      border:1px solid red;
+    }
+    .input3:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+    .input3[type="email"]::-webkit-input-placeholder {
+        text-align: right;
+
+    }
+    .password {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:397px;
+      margin:10px; 
+      font-size:18px;
+
+
+    }
+
+    .input4:active {
+      border:1px solid red;
+    }
+    .input4:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+    .button {
+      border:1px solid #989ba0;
+      padding:12px 34px;
+      margin:10px 0px 10px 684px;
+      margin-top:30px;
+      cursor: pointer;
+      border-radius:8px;
+      font-weight:300px;
+    }
+    .button:hover {
+      background-color:rgb(80, 171, 241); 
+    }
+    .Months {
+      background-color:rgb(255, 255, 255);
+      font-family: 'Titillium Web', sans-serif;
+      border:1px solid #c2cad6;
+      padding:6px 20px;
+      margin:10px 0px 10px 410px;
+      width:13%;
+      border-radius:4px;
+      color:black;
+}
+
+
+
+    .date {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px;
+      font-size:18px; 
+    }
+    .input5 {
+      text-align:left;
+      padding:8px;
+      width:7%;
+      margin:1px 10px 3px 10px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input6 {
+      text-align:left;
+      padding:8px;
+      width:7%;
+      margin:1px 10px 3px 10px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input7 {
+      text-align:left;
+      padding:8px;
+      width:30%;
+      margin:10px 10px 3px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid rgb(195, 195, 194);
+      background-color:white;
+    }
+    .input7:active {
+      border:1px solid red;
+    }
+    .input7:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+    .input8 {
+      text-align:left;
+      padding:8px;
+      width:25.4%;
+      margin:10px 10px 3px 4px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid rgb(195, 195, 194);
+      background-color:white;
+    }
+    .input8:active {
+      border:1px solid red;
+    }
+    .input8:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+
+
+
+
+    .input5:active {
+      border:1px solid red;
+    }
+    .input5:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+
+    .input6:active {
+      border:1px solid red;
+    }
+    .input6:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+    .Gender {
+
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px;
+      font-size:18px; 
+    }
+    .number {
+
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px;
+      font-size:18px; 
+    }
+    .emails {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px;
+      font-size:18px; 
+    }
+
+    .input9 {
+      text-align:left;
+      padding:8px;
+      width:30%;
+      margin:10px 10px 3px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid rgb(195, 195, 194);
+      background-color:white;
+    }
+    .input9:active {
+      border:1px solid red;
+    }
+    .input9:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+
+    .locations {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px;
+      font-size:18px; 
+    }
+
+
+
+
+
+   
+    
+    
+  </style>
+</head>
+<body>
+
+    <h4>Contact Us</h4>
+  <form autocomplete="on">
+        <h3 class="first">Name:</h3>
+        <input class="input1" type="text" name="First" placeholder="First" required>
+        <input class="input2" type="text" name="Last" placeholder="Last" style="margin-top:-19px" required>
+        <h5 class="userName">Choose your username</h5>
+        <input class="input3" type="email" name="email" placeholder="@email.com" required>
+        <h5 class="password" autocomplete="off">Create your password</h5>
+        <input class="input4" type="password" name="UserName" placeholder="" autocomplete="on" required>
+        <h5 class="password" autocomplete="off">Confirm your password</h5>
+        <input class="input4" type="password" name="UserName" placeholder="" required><br>
+        <h6 class="date">Birtday:</h6>
+      <a href="#"><select name="month" class="Months" required >
+          <option  value="month " hidden>Month</option>
+          <option value="January " style="background-color:#dee1e5;">January </option>
+          <option value="February " style="background-color:#dee1e5">February </option>    
+          <option value="March" style="background-color:#dee1e5">March</option>
+          <option value="April" style="background-color:#dee1e5">April </option>
+          <option value="May" style="background-color:#dee1e5">May</option>
+          <option value="June" style="background-color:#dee1e5">June </option>
+          <option value="July" style="background-color:#dee1e5">July </option>
+          <option value="August" style="background-color:#dee1e5">August</option>
+          <option value="September" style="background-color:#dee1e5">September </option>
+          <option value="October" style="background-color:#dee1e5">October</option>
+          <option value="November" style="background-color:#dee1e5">November</option>
+          <option value="December" style="background-color:#dee1e5">December </option>
+      </select></a>
+          <input class="input5" type="text" name="dates" placeholder="Date" required>
+          <input class="input6" type="text" name="year" placeholder="Year" required>
+          <h3 class="Gender">Gender</h3>
+          <select id="urls" name="gender" class="input7" style="background-color:#dee1e5" required>
+          <option hidden>I am...</option>
+          <option>Male</option>
+          <option>Femele</option>
+          <option>Other</option>
+          <option>Rather not way</option>
+        </select>
+        <h6 class="number">Mobile Number</h6>
+        <img src="static/images/images (12).jpeg" style="height:36px;margin-left:410px;border:1px solid red;"><input type="tel" name="mobileNumber" class="input8" maxlength="10" placeholder="+91" autocomplete="on" required>
+        <h6 class="emails">Your current email address</h6>
+        <input class="input9" type="email" name="emails" autocomplete="on" required>
+        <h6 class="locations">Location</h6>
+        <select name="gender" class="input7" style="background-color:#dee1e5" required>
+          <option hidden>Country</option>
+          <option>India</option>
+          <option>Pakistan</option>
+          <option>Austrlia</option>
+          <option>Sri lanka</option>
+          <option>Bangladash</option>
+          <option>Zimbabe</option>
+          <option>Hong kong</option>
+          <option>Japan</option>
+          <option>China</option>
+          <option>us</option>
+          <option>Irland</option>
+          <option>Africa</option>
+          <option>Englend</option>
+          <option>Jamica</option>
+          <option>south koriya</option>
+        </select>
+          <button class="button" formaction="{{ url_for('home') }}">Submit</button>
+          
+
+  </form>
+
+</body>
+</html>

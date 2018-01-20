@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gilool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    body {
+        background-color:#f4f5f7;
+    }
+    h4 {
+      color:#6d7991;
+      text-align:center;
+      font-family: 'Open Sans', sans-serif;
+      font-size:30px;
+      margin-right:140px;
+      margin-top:10px;
+      border:1px solid #8c9199;
+      padding:10px 10px 10px 10px;
+      width:120px;
+      margin-left:530px;
+      background-color:#daefef;
+      border-radius:4px;
+
+    }
+    .first {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px; 
+    }
+    .input1{
+      text-align:left;
+      padding:8px;
+      width:13%;
+      margin:1px 10px 3px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+    }
+    .input2 {
+      text-align:left;
+      padding:8px;
+      width:13%;
+      margin:1px 10px 3px 10px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input1:hover {
+      border-color:rgb(80, 171, 241);
+      
+    }
+    .input2:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+
+    .input2:active {
+      border:1px solid red;
+    }
+    .input1:active {
+      border:1px solid red;
+    }
+
+    .userName {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:398px;
+      margin:10px; 
+      font-size:18px;
+    }
+    .input3 {
+      text-align:left;
+      padding:8px;
+      width:12%;
+      margin:1px 10px 3px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input4 {
+      text-align:left;
+      padding:8px;
+      width:12%;
+      margin:1px 10px 3px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input3:active {
+      border:1px solid red;
+    }
+    .input3:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+    .input3[type="email"]::-webkit-input-placeholder {
+        text-align: right;
+
+    }
+    .password {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:397px;
+      margin:10px; 
+      font-size:18px;
+
+
+    }
+
+    .input4:active {
+      border:1px solid red;
+    }
+    .input4:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+    .button {
+      border:1px solid #989ba0;
+      padding:12px 34px;
+      margin:10px 0px 10px 684px;
+      margin-top:30px;
+      cursor: pointer;
+      border-radius:8px;
+      font-weight:300px;
+    }
+    .button:hover {
+      background-color:rgb(80, 171, 241); 
+    }
+    
+    .input5 {
+      text-align:left;
+      padding:8px;
+      width:10%;
+      margin:1px 10px 3px 10px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input6 {
+      text-align:left;
+      padding:8px;
+      width:7%;
+      margin:1px 10px 3px 10px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid #a2a8ad;
+
+    }
+    .input7 {
+      text-align:left;
+      padding:8px;
+      width:28%;
+      margin:10px 10px 3px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid rgb(195, 195, 194);
+      background-color:white;
+    }
+    .input7:active {
+      border:1px solid red;
+    }
+    .input7:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+    .input8 {
+      text-align:left;
+      padding:8px;
+      width:28%;
+      margin:10px 10px 20px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid rgb(195, 195, 194);
+      background-color:white;
+    }
+    .input8:active {
+      border:1px solid red;
+    }
+    .input8:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+
+
+
+
+    .input5:active {
+      border:1px solid red;
+    }
+    .input5:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+
+    .input6:active {
+      border:1px solid red;
+    }
+    .input6:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+    
+    .number {
+
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px;
+      font-size:18px; 
+    }
+    
+    
+
+    .locations {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px;
+      font-size:18px; 
+    }
+
+    .table {
+      text-align:left;
+      padding:8px;
+      width:28%;
+      margin:20px 10px 30px 410px;
+      font-family: 'Nunito Sans', sans-serif;
+      border:1px solid rgb(195, 195, 194);
+      background-color:white;
+    }
+
+    .table:active {
+      border:1px solid red;
+    }
+    .table:hover {
+      border-color:rgb(80, 171, 241);
+
+    }
+
+    .table_numbers {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px;
+      margin-top:30px;
+      font-size:18px; 
+    
+
+    }
+    .names {
+      text-align:left;
+      font-family: 'Ubuntu', sans-serif;
+      padding:-10px 20px;
+      padding-left:400px;
+      margin:10px;
+      margin-top:20px;
+      font-size:18px; 
+    
+
+    }
+
+
+
+
+
+   
+    
+    
+  </style>
+</head>
+<body>
+
+    <h4>Orders</h4>
+  <form autocomplete="on">
+        <h3 class="first">Name:</h3>
+        <input class="input1" type="text" name="First" placeholder="First" required>
+        <input class="input2" type="text" name="Last" placeholder="Last" style="margin-top:-19px" required>   
+        <h6 class="number">Mobile Number</h6>
+        <input type="tel" name="mobileNumber" class="input8" maxlength="10" placeholder="+91" required>
+        <h6 class="names">Ice-cream</h6>
+        <input class="input8" type="text" name="Ice-cream" placeholder="Vanila" required>
+        
+        <h6 class="locations">Menu</h6>
+        <select name="gender" class="input7" style="background-color:#dee1e5" required>
+          <option hidden>Select thadi</option>
+          <option>Gujarti</option>
+          <option>Panjabi</option>
+          <option>South Indian</option>
+          <option>Chinise</option>
+          <option>Amrican</option>
+    
+          <option>Marthi</option>
+          <option>Pizza</option>
+          <option>Barger</option>
+        </select>
+        <h6 class="table_numbers">Table_number</h6>
+        <input type="number" name="TableNumber" class="table" maxlength="10" autocomplete="on" required>
+          <button class="button" formaction="{{ url_for('home') }}">Submit</button>
+          
+          
+
+  </form>
+
+</body>
+</html>
